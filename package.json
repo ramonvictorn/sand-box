@@ -1,0 +1,22 @@
+{
+  "name": "sand-box",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramonvictorn/sand-box.git"
+  },
+  "author": "Ramon Victor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramonvictorn/sand-box/issues"
+  },
+  "homepage": "https://github.com/ramonvictorn/sand-box#readme",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
