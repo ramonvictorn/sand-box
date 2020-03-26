@@ -48,6 +48,21 @@ async function getTodosForEach() {
   console.log('data -> ', data);
 }
 
+/**
+ * The same comportament the For of....
+ */
+async function getTodosLoopCommon() {
+  const data = [];
+  for (let count = 0; count < urls.length; count++) {
+    console.log('start with', urls[count]);
+    const result = await axios.get(urls[count]);
+    console.log(`Received ${count + 1}:`, result.data.id);
+    data.push(result.data.id);
+  }
+  console.log('data -> ', data);
+}
+
 // getTodosMap();
 // getTodosForOf();
 // getTodosForEach();
+// getTodosLoopCommon();
